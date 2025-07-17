@@ -13,3 +13,4 @@ build/
 # IDE files
 .vscode/
 .idea/
+.venv
