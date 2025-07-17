@@ -1,0 +1,125 @@
+{
+    "timestamp": "2025-07-17T07:12:50.889Z",
+    "cpu": {
+        "currentLoad": 16.58,
+        "userLoad": 7.89,
+        "systemLoad": 8.11,
+        "irqLoad": 0.58
+    },
+    "cpuCores": [
+        18.31,
+        17.58,
+        21.18,
+        16.95,
+        17.65,
+        15.78,
+        15.29,
+        15.44,
+        14.97,
+        14.8,
+        15.02,
+        15.94
+    ],
+    "memory": {
+        "totalMB": 7877,
+        "usedMB": 7019,
+        "freeMB": 858,
+        "usagePercent": 89.11
+    },
+    "uptimeSeconds": 269696.484,
+    "systemMetrics": {
+        "disk": [
+            {
+                "device": "\\\\.\\PHYSICALDRIVE0",
+                "type": "SSD",
+                "name": "NVMe PM991a NVMe Samsung 512GB",
+                "health": "Ok",
+                "sizeGB": 512.11
+            }
+        ],
+        "processes": {
+            "total": 364,
+            "running": 0,
+            "blocked": 0,
+            "topProcesses": [
+                {
+                    "pid": 0,
+                    "name": "System Idle Process",
+                    "cpu": 91.4441486051448,
+                    "memory": 0.00009918445581208513
+                },
+                {
+                    "pid": 5092,
+                    "name": "MsMpEng.exe",
+                    "cpu": 1.8862115712598941,
+                    "memory": 2.2323445469626
+                },
+                {
+                    "pid": 4,
+                    "name": "System",
+                    "cpu": 1.6855512310316174,
+                    "memory": 0.0001487766837181277
+                },
+                {
+                    "pid": 4900,
+                    "name": "SmartByteNetworkService.exe",
+                    "cpu": 0.8245523444937448,
+                    "memory": 0.19474867898702916
+                },
+                {
+                    "pid": 3696,
+                    "name": "Memory Compression",
+                    "cpu": 0.5330489687860571,
+                    "memory": 1.086069791142332
+                }
+            ]
+        }
+    },
+    "functionalMetrics": {
+        "networkInterfaces": [
+            {
+                "iface": "Ethernet 2",
+                "ip4": "192.168.56.1",
+                "mac": "0a:00:27:00:00:0e",
+                "speedMbps": 1000
+            },
+            {
+                "iface": "Wi-Fi",
+                "ip4": "10.233.177.144",
+                "mac": "78:af:08:7e:9e:f6",
+                "speedMbps": 516.5
+            },
+            {
+                "iface": "Loopback Pseudo-Interface 1",
+                "ip4": "127.0.0.1",
+                "mac": "00:00:00:00:00:00",
+                "speedMbps": null
+            },
+            {
+                "iface": "Local Area Connection",
+                "ip4": "",
+                "mac": "00:ff:cf:04:ab:6c",
+                "speedMbps": 0
+            },
+            {
+                "iface": "Bluetooth Network Connection",
+                "ip4": "",
+                "mac": "78:af:08:7e:9e:fa",
+                "speedMbps": 0
+            }
+        ],
+        "trafficAnalysis": [
+            {
+                "iface": "Wi-Fi",
+                "rxBytes": 446554060,
+                "txBytes": 48075905,
+                "rxSec": null,
+                "txSec": null,
+                "throughputMbps": 0,
+                "isSpike": false,
+                "isDrop": true
+            }
+        ],
+        "latencyMs": 10
+    }
+}
